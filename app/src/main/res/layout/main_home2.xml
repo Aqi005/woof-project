@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.Main_Home"
+    android:fillViewport="true">
+
+    <!--<com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:src="@drawable/paw_1"
+        android:onClick="new_P"
+        android:clickable="true"
+        />-->
+
+    <!--<com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            app:civ_border_color="@color/black"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/profile_icon"
+            />
+
+    </com.google.android.material.appbar.AppBarLayout>-->
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/linearLayout"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="80dp"
+        android:orientation="horizontal">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/Ques"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="30dp"
+        app:cardCornerRadius="20dp"
+        android:onClick="ask_Q"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        app:cardBackgroundColor="@color/purple_200"
+        android:background="@drawable/border2">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottieques"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:elevation="5dp"
+            app:lottie_autoPlay="true"
+            app:lottie_rawRes="@raw/ques"
+            app:lottie_repeatCount="100"
+            app:lottie_repeatMode="reverse"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="160dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Ask Question"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <!--<Button
+            android:id="@+id/ask_Q"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_below="@+id/text1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="23dp"
+            android:backgroundTint="@color/black"
+            android:onClick="ask_Q"
+            android:text="Click Here"
+            android:textColor="@color/white" />-->
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/addPet"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_toRightOf="@id/Ques"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="30dp"
+        app:cardCornerRadius="20dp"
+        android:onClick="new_P"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        app:cardBackgroundColor="#EA6B61"
+        android:background="@drawable/border2">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottieadd"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:elevation="5dp"
+            app:lottie_autoPlay="true"
+            app:lottie_rawRes="@raw/add"
+            app:lottie_repeatCount="100"
+            app:lottie_repeatMode="reverse" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="160dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Add Pet"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <!--<Button
+            android:id="@+id/ask_Q"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_below="@+id/text1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="23dp"
+            android:backgroundTint="@color/black"
+            android:onClick="ask_Q"
+            android:text="Click Here"
+            android:textColor="@color/white" />-->
+    </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/petList"
+        android:layout_width="305dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/linearLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/border2"
+        android:onClick="pet_L"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        app:cardBackgroundColor="#F3C437"
+        app:cardCornerRadius="20dp">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottielist"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:elevation="5dp"
+            app:lottie_autoPlay="true"
+            app:lottie_rawRes="@raw/see"
+            app:lottie_repeatCount="100"
+            app:lottie_repeatMode="reverse" />
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="160dp"
+            android:text="Pet List"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <!--<Button
+            android:id="@+id/ask_Q"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_below="@+id/text1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="23dp"
+            android:backgroundTint="@color/black"
+            android:onClick="ask_Q"
+            android:text="Click Here"
+            android:textColor="@color/white" />-->
+    </androidx.cardview.widget.CardView>
+    <!--<RelativeLayout
+        android:id="@+id/addpett"
+        android:layout_marginTop="20dp"
+        android:layout_height="150dp"
+        android:layout_width="match_parent"
+        android:layout_below="@id/Ques"
+        android:background="@drawable/border2"
+>
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Add New Pet"
+            android:textColor="@color/black"
+            android:textSize="40dp" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottieadd"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_marginLeft="250dp"
+            android:elevation="5dp"
+            app:lottie_autoPlay="true"
+            app:lottie_rawRes="@raw/add"
+            app:lottie_repeatMode="reverse" />
+
+        <Button
+            android:id="@+id/new_P"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_below="@id/text2"
+            android:layout_marginTop="23dp"
+            android:layout_marginLeft="10dp"
+            android:backgroundTint="@color/black"
+            android:onClick="new_P"
+            android:text="Click Here"
+            android:textColor="@color/white" />
+    </RelativeLayout>-->
+
+    <!-- <RelativeLayout
+         android:id="@+id/seepet"
+         android:layout_marginTop="20dp"
+         android:layout_width="match_parent"
+         android:layout_height="150dp"
+         android:layout_below="@id/addpett"
+         android:background="@drawable/border2">
+
+         <TextView
+             android:id="@+id/text3"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="10dp"
+             android:layout_marginTop="10dp"
+             android:text="See Pet List"
+             android:textColor="@color/black"
+             android:textSize="40dp" />
+
+         <com.airbnb.lottie.LottieAnimationView
+             android:id="@+id/lottielist"
+             android:layout_width="160dp"
+             android:layout_height="160dp"
+             android:layout_marginLeft="250dp"
+             android:elevation="5dp"
+             app:lottie_autoPlay="true"
+             app:lottie_rawRes="@raw/see"
+             app:lottie_repeatMode="reverse" />
+
+         <Button
+             android:id="@+id/pet_L"
+             android:layout_width="wrap_content"
+             android:layout_height="70dp"
+             android:layout_below="@id/text3"
+             android:layout_marginLeft="10dp"
+             android:layout_marginTop="23dp"
+             android:backgroundTint="@color/black"
+             android:onClick="pet_L"
+             android:text="Click here"
+             android:textColor="@color/white" />
+     </RelativeLayout>
+ -->
+</RelativeLayout>

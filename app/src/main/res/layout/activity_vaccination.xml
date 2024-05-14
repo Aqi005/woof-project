@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a96f817655652944e307e82accbbe20f"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Activities.Vaccination">
+
+        <!-- CalendarView with monday as first day and minmal and maximal day -->
+        <CalendarView
+            android:id="@+id/simpleCalendarView"
+            android:layout_width="379dp"
+            android:layout_height="303dp"
+            android:background="@drawable/border2"
+            android:firstDayOfWeek="2"
+            android:maxDate="01/01/2050"
+            android:minDate="01/01/2001" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rec"
+            android:layout_width="375dp"
+            android:layout_height="292dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="320dp"
+            android:orientation="vertical"
+            tools:context=".Activities.Vaccination">
+
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+
+</RelativeLayout>

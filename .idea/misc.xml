@@ -1,0 +1,93 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.4/Project 0.4/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.4/Project 0.4/app/src/main/res/layout/activity_main__home.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.4/Project 0.4/app/src/main/res/layout/activity_main_home.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.4/Project 0.4/app/src/main/res/layout/main_home2.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.5/Project 0.4/app/src/main/res/layout/activity_sign_up.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.5/Project 0.4/app/src/main/res/layout/main_home2.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.5/Project-Woof/app/src/main/res/layout/activity_sign_up.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.5/Project-Woof/app/src/main/res/layout/loading.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.5/Project-Woof/app/src/main/res/layout/main_home2.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.6/Project-Woof/app/src/main/res/layout/activity_forgot_password.xml" value="0.12158054711246201" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.6/Project-Woof/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.6/Project-Woof/app/src/main/res/layout/activity_main__home.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.6/Project-Woof/app/src/main/res/layout/activity_main_home.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.6/Project-Woof/app/src/main/res/layout/activity_sign_up.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.6/Project-Woof/app/src/main/res/layout/app_bar_main.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.6/Project-Woof/app/src/main/res/layout/content_main.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.6/Project-Woof/app/src/main/res/layout/loading.xml" value="0.264" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.6/Project-Woof/app/src/main/res/layout/main_home2.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.6/Project-Woof/app/src/main/res/layout/nav_header_main.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.6/Project-Woof/app/src/main/res/menu/activity_main_drawer.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.6/Project-Woof/app/src/main/res/menu/home.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.7/Project-Woof/app/src/main/res/layout/activity_add_your_pet.xml" value="0.12158054711246201" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.7/Project-Woof/app/src/main/res/layout/activity_buy_pets.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.7/Project-Woof/app/src/main/res/layout/activity_chat_width.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.7/Project-Woof/app/src/main/res/layout/activity_chats.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.7/Project-Woof/app/src/main/res/layout/activity_contact__us.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.7/Project-Woof/app/src/main/res/layout/activity_diet_chart.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.7/Project-Woof/app/src/main/res/layout/activity_forgot_password.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.7/Project-Woof/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.7/Project-Woof/app/src/main/res/layout/activity_main__home.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.7/Project-Woof/app/src/main/res/layout/activity_main_home.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.7/Project-Woof/app/src/main/res/layout/activity_phone_auth.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.7/Project-Woof/app/src/main/res/layout/activity_sell_pets.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.7/Project-Woof/app/src/main/res/layout/activity_sign_up.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.7/Project-Woof/app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.7/Project-Woof/app/src/main/res/layout/activity_upload__user__account__detailts.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.7/Project-Woof/app/src/main/res/layout/activity_vaccination.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.7/Project-Woof/app/src/main/res/layout/activity_view_post_details.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.7/Project-Woof/app/src/main/res/layout/activity_your_pets_list.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.7/Project-Woof/app/src/main/res/layout/activity_your_sell_pets_post.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.7/Project-Woof/app/src/main/res/layout/app_bar_main.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.7/Project-Woof/app/src/main/res/layout/buy_pets_adapter_view.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.7/Project-Woof/app/src/main/res/layout/chat_list_adapter_view.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.7/Project-Woof/app/src/main/res/layout/chat_messages_adapter_view.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.7/Project-Woof/app/src/main/res/layout/content_main.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.7/Project-Woof/app/src/main/res/layout/fragment_gallery.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.7/Project-Woof/app/src/main/res/layout/fragment_slideshow.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.7/Project-Woof/app/src/main/res/layout/image_adapter_view.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.7/Project-Woof/app/src/main/res/layout/loading.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.7/Project-Woof/app/src/main/res/layout/main_home2.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.7/Project-Woof/app/src/main/res/layout/nav_header_main.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.7/Project-Woof/app/src/main/res/layout/profile.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.7/Project-Woof/app/src/main/res/layout/train_gif_adapter_view.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.7/Project-Woof/app/src/main/res/layout/update_profile_image.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.7/Project-Woof/app/src/main/res/layout/view_image_full_screen.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.7/Project-Woof/app/src/main/res/layout/view_post_image_full_screen.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.7/Project-Woof/app/src/main/res/layout/website.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.7/Project-Woof/app/src/main/res/layout/your_sell_pets_post_adapter_view.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.7/Project-Woof/app/src/main/res/menu/activity_main_drawer.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.7/Project-Woof/app/src/main/res/menu/home.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.8/Project-Woof/app/src/main/res/layout/activity_add_your_pet.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.8/Project-Woof/app/src/main/res/layout/activity_buy_pets.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.8/Project-Woof/app/src/main/res/layout/activity_chat_width.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.8/Project-Woof/app/src/main/res/layout/activity_chats.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.8/Project-Woof/app/src/main/res/layout/activity_forgot_password.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.8/Project-Woof/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.8/Project-Woof/app/src/main/res/layout/activity_main_home.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.8/Project-Woof/app/src/main/res/layout/activity_sign_up.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.8/Project-Woof/app/src/main/res/layout/activity_upload__user__account__detailts.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.8/Project-Woof/app/src/main/res/layout/activity_your_pets_list.xml" value="0.12158054711246201" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.8/Project-Woof/app/src/main/res/layout/app_bar_main.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.8/Project-Woof/app/src/main/res/layout/buy_pets_adapter_view.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.8/Project-Woof/app/src/main/res/layout/content_main.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.8/Project-Woof/app/src/main/res/layout/main_home2.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.8/Project-Woof/app/src/main/res/layout/nav_header_main.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.8/Project-Woof/app/src/main/res/layout/profile.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.8/Project-Woof/app/src/main/res/layout/train_gif_adapter_view.xml" value="0.25" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.8/Project-Woof/app/src/main/res/menu/activity_main_drawer.xml" value="0.24615384615384617" />
+        <entry key="..\:/Users/SMSAMI-12/Desktop/E-Woof/Project 0.8/Project-Woof/app/src/main/res/menu/home.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

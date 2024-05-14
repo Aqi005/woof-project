@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activities.SignUp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up Here"
+        android:textSize="40dp"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80dp"
+        android:textStyle="bold"
+        />
+
+    <!--<ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/e34a1d3f75916339e6184f16be1dca89"
+        />-->
+
+
+    <!--<de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_width="160dp"
+        android:layout_gravity="center"
+        android:layout_height="160dp"
+        android:layout_marginBottom="100dp"
+        app:civ_border_color="@color/white"
+        android:src="@drawable/dog_infront_of_man"/>-->
+    <!--<Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:onClick="signUpPage"
+        android:id="@+id/signUpButton"
+        />-->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            app:cardCornerRadius="20dp"
+            app:cardBackgroundColor="#2C2C2C"
+            android:onClick="Google_Auth"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/google_icon"
+                android:layout_gravity="center"
+                android:id="@+id/google_icon"
+                />
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Google Auth"
+                android:layout_marginTop="80dp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                />
+
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="2dp"
+            />
+        <androidx.cardview.widget.CardView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            app:cardCornerRadius="20dp"
+            app:cardBackgroundColor="#D37E02"
+            android:onClick="Phone_Auth"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/phone_auth"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Phone Auth"
+                android:textColor="@color/white"
+                android:layout_marginTop="80dp"
+                android:gravity="center"
+                />
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+        <!--<android.widget.Button
+            android:layout_width="match_parent"
+            android:background="@drawable/btn_back_color"
+            android:text="Google Auth"
+            android:onClick="Google_Auth"
+            android:drawableStart="@drawable/google_icon"
+            android:paddingLeft="30sp"
+            android:paddingRight="55dp"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:textSize="17sp"
+            android:layout_height="50dp"/>
+
+        <android.widget.Button
+            android:layout_width="match_parent"
+            android:background="@drawable/btn_back_color"
+            android:text="Phone Auth"
+            android:layout_marginTop="15sp"
+            android:layout_marginBottom="15dp"
+            android:onClick="Phone_Auth"
+            android:drawableStart="@drawable/phone_auth"
+            android:paddingLeft="30sp"
+            android:paddingRight="55dp"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:textSize="17sp"
+            android:layout_height="50dp"/>-->
+
+    </LinearLayout>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="300dp"
+        android:layout_height="500dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        app:lottie_repeatCount="100"
+        app:lottie_repeatMode="reverse"
+        app:lottie_autoPlay="true"
+        app:lottie_url="https://assets1.lottiefiles.com/packages/lf20_syqnfe7c.json"
+        />
+    <!--<ImageView
+        android:id="@+id/profile_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="450dp"
+        android:src="@drawable/dog_nose" />-->
+
+
+</FrameLayout>
